@@ -1,21 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Поехали!</title>
-    <meta name="description" content="Poehali.dev — запусти свой сайт за минуту!" />
-    <meta name="author" content="poehali.dev" />
-     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Подготовка к ЕГЭ по обществознанию</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+</head>
+<body>
+  <!-- Шапка сайта -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="#" class="logo">ЕГЭ по обществознанию</a>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#" class="active">Главная</a></li>
+            <li><a href="#topics">Темы</a></li>
+            <li><a href="#tasks">Задания</a></li>
+            <li><a href="#resources">Ресурсы</a></li>
+          </ul>
+        </nav>
+        <div class="auth-buttons">
+          <button class="btn btn-outline">Войти</button>
+          <button class="btn btn-primary">Начать обучение</button>
+        </div>
+      </div>
+    </div>
+  </header>
 
-    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS COMMENT! -->
-    <script src="https://cdn.poehali.dev/intertnal/js/pp-min-2.js"></script>
-    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS COMMENT! -->
+  <!-- Главный баннер -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Подготовка к ЕГЭ по обществознанию</h1>
+        <p>Комплексная программа подготовки с нуля до высоких баллов. Структурированные материалы, практические задания и пошаговые инструкции.</p>
+        <div class="hero-buttons">
+          <a href="#topics" class="btn btn-light">Начать обучение</a>
+          <a href="#tasks" class="btn btn-outline-light">Пробный тест</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  </head>
+  <!-- Блок преимуществ -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <h2>Комплексная подготовка к экзамену</h2>
+        <p>Все, что вам нужно для успешной сдачи ЕГЭ по обществознанию</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">📚</div>
+          <h3>Теоретический материал</h3>
+          <p>Подробные лекции по всем темам с понятными объяснениями и примерами</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">✅</div>
+          <h3>Практика и тесты</h3>
+          <p>Тренировочные задания разных типов с подробными разборами решений</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🎓</div>
+          <h3>Индивидуальный подход</h3>
+          <p>Учебные программы разной сложности для любого уровня подготовки</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+  <!-- Блок с темами -->
+  <section class="topics" id="topics">
+    <div class="container">
+      <div class="section-header">
+        <h2>Темы курса</h2>
+        <p>Изучите все необходимые разделы обществознания для успешной сдачи ЕГЭ</p>
+      </div>
+      <div class="topics-grid">
+        <div class="topic-card">
+          <h3>Человек и общество</h3>
+          <p>Природа человека, личность, общество как система, глобальные проблемы</p>
+          <a href="#" class="btn-link">Перейти к теме →</a>
+        </div>
+        <div class="topic-card">
+          <h3>Экономика</h3>
+          <p>Экономические системы, рынок, финансы, роль государства в экономике</p>
+          <a href="#" class="btn-link">Перейти к теме →</a>
+        </div>
+        <div class="topic-card">
+          <h3>Социальные отношения</h3>
+          <p>Социальные группы, статусы и роли, социальные нормы и конфликты</p>
+          <a href="#" class="btn-link">Перейти к теме →</a>
+        </div>
+        <div class="topic-card">
+          <h3>Политика</h3>
+          <p>Государство, политические режимы, демократия, гражданское общество</p>
+          <a href="#" class="btn-link">Перейти к теме →</a>
+        </div>
+        <div class="topic-card">
+          <h3>Право</h3>
+          <p>Теория права, конституция, отрасли права, международное право</p>
+          <a href="#" class="btn-link">Перейти к теме →</a>
+        </div>
+        <div class="topic-card">
+          <h3>Культура</h3>
+          <p>Формы и разновидности культуры, наука, образование, религия, искусство</p>
+          <a href="#" class="btn-link">Перейти к теме →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Подвал сайта -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h3>ЕГЭ по обществознанию</h3>
+          <p>Ваш надежный помощник в подготовке к экзамену</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-links-column">
+            <h4>Навигация</h4>
+            <ul>
+              <li><a href="#">Главная</a></li>
+              <li><a href="#topics">Темы</a></li>
+              <li><a href="#tasks">Задания</a></li>
+              <li><a href="#resources">Ресурсы</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-column">
+            <h4>Контакты</h4>
+            <ul>
+              <li><a href="mailto:info@ege-obsh.ru">info@ege-obsh.ru</a></li>
+              <li><a href="tel:+78001234567">8 (800) 123-45-67</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 Подготовка к ЕГЭ по обществознанию. Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
